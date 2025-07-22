@@ -7,10 +7,11 @@ import {
   ScrollRestoration,
 } from "react-router";
 
-import type { Route } from "./+types/root";
+// import type { Route } from "./+types/home";
 import "./app.css";
 import { usePuterStore } from "./lib/puter";
 import { useEffect } from "react";
+import type { Route } from "./routes/+types/home";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
