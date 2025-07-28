@@ -81,7 +81,7 @@ function Upload() {
     console.log("data ", data);
 
     setIsProcessing(false);
-    navigate("/");
+    navigate(`/resume/${uuid}`);
   };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
